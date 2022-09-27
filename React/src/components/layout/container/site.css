@@ -1,0 +1,105 @@
+:root {
+    --orange-apside: #dc911b;
+    --orange-hover-apside: #e8a742;
+    --bleu-apside: #183650;
+    --gris-apside: #f2f2f2;
+}
+
+html, body {
+    background-color: var(--bleu-apside) !important;
+    height: 100%;
+    width: 100%;
+}
+
+nav {
+    background-color: var(--gris-apside);
+}
+
+table {
+    background-color:white;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+h1, h4, a, i, span, .h4 {
+    color: var(--orange-apside) !important;
+    text-decoration: none;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.row {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+label {
+    color: black;
+}​
+
+input[type=button], input[type=submit], input[type=checkbox]:checked, button, .apside-checkbox {
+    background-color: var(--orange-apside) !important;
+    border-color: var(--orange-apside) !important;
+}
+
+input[type=checkbox], .apside-checkbox {
+    background-color: white !important;
+    border-color: #ced4da !important;
+}
+
+input[type=button]:hover, input[type=submit]:hover, button:hover {
+    background-color: var(--orange-hover-apside) !important;
+    border-color: var(--orange-hover-apside) !important;
+}
+
+a:hover {
+    color: var(--orange-hover-apside) !important;
+}
+
+.bg-orange {
+    background-color: var(--orange-apside) !important;
+    border-color: var(--orange-apside) !important;
+    color:white;
+}
+
+.modal-content {
+    background-color: var(--bleu-apside) !important;
+}
+
+small {
+    color: #6c757d !important;
+}
+
+.align-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.center-btn-card {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div[class=row] > label {
+    color: black;
+}
+
+.card {
+    padding: 20px;
+}
+
+.modal-content {
+    background-color: var(--gris-apside) !important;
+}
